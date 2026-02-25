@@ -14,55 +14,55 @@ if "history" not in st.session_state:
 dark = st.session_state.dark_mode
 
 if dark:
-    PAGE_BG      = "#09090f"
-    GRID_COLOR   = "rgba(255,255,255,0.03)"
-    GLASS_BG     = "rgba(255,255,255,0.04)"
+    PAGE_BG = "#09090f"
+    GRID_COLOR = "rgba(255,255,255,0.03)"
+    GLASS_BG = "rgba(255,255,255,0.04)"
     GLASS_BORDER = "rgba(255,255,255,0.08)"
-    GLASS_BLUR   = "20px"
-    TEXT         = "#f0f0f8"
-    TEXT_DIM     = "rgba(240,240,248,0.38)"
-    USER_BG      = "linear-gradient(135deg,#3b6cff 0%,#7c3aed 100%)"
-    USER_TEXT    = "#fff"
-    BOT_BG       = "rgba(255,255,255,0.05)"
-    BOT_BORDER   = "rgba(255,255,255,0.09)"
-    BOT_TEXT     = "#e4e4f0"
-    ACCENT       = "#3b6cff"
-    ACCENT2      = "#7c3aed"
-    SIDEBAR_BG   = "rgba(9,9,15,0.96)"
-    BTN_BG       = "rgba(255,255,255,0.04)"
+    GLASS_BLUR = "20px"
+    TEXT = "#f0f0f8"
+    TEXT_DIM = "rgba(240,240,248,0.38)"
+    USER_BG = "linear-gradient(135deg,#3b6cff 0%,#7c3aed 100%)"
+    USER_TEXT = "#fff"
+    BOT_BG = "rgba(255,255,255,0.05)"
+    BOT_BORDER = "rgba(255,255,255,0.09)"
+    BOT_TEXT = "#e4e4f0"
+    ACCENT = "#3b6cff"
+    ACCENT2 = "#7c3aed"
+    SIDEBAR_BG = "rgba(9,9,15,0.96)"
+    BTN_BG = "rgba(255,255,255,0.04)"
     BTN_HOVER_BG = "rgba(59,108,255,0.12)"
     BTN_HOVER_BD = "rgba(59,108,255,0.35)"
-    INPUT_BG     = "rgba(255,255,255,0.05)"
-    GLOW         = "rgba(59,108,255,0.15)"
+    INPUT_BG = "rgba(255,255,255,0.05)"
+    GLOW = "rgba(59,108,255,0.15)"
     TOGGLE_LABEL = "🌙 Dark"
-    DIVIDER      = "rgba(255,255,255,0.07)"
-    TAG_BG       = "rgba(59,108,255,0.12)"
-    TAG_COLOR    = "#7aa2ff"
+    DIVIDER = "rgba(255,255,255,0.07)"
+    TAG_BG = "rgba(59,108,255,0.12)"
+    TAG_COLOR = "#7aa2ff"
 else:
-    PAGE_BG      = "#f4f6fb"
-    GRID_COLOR   = "rgba(0,0,0,0.03)"
-    GLASS_BG     = "rgba(255,255,255,0.80)"
+    PAGE_BG = "#f4f6fb"
+    GRID_COLOR = "rgba(0,0,0,0.03)"
+    GLASS_BG = "rgba(255,255,255,0.80)"
     GLASS_BORDER = "rgba(0,0,0,0.07)"
-    GLASS_BLUR   = "20px"
-    TEXT         = "#111128"
-    TEXT_DIM     = "rgba(17,17,40,0.42)"
-    USER_BG      = "linear-gradient(135deg,#3b6cff 0%,#7c3aed 100%)"
-    USER_TEXT    = "#fff"
-    BOT_BG       = "rgba(255,255,255,0.90)"
-    BOT_BORDER   = "rgba(0,0,0,0.07)"
-    BOT_TEXT     = "#111128"
-    ACCENT       = "#3b6cff"
-    ACCENT2      = "#7c3aed"
-    SIDEBAR_BG   = "rgba(244,246,251,0.96)"
-    BTN_BG       = "rgba(0,0,0,0.03)"
+    GLASS_BLUR = "20px"
+    TEXT = "#111128"
+    TEXT_DIM = "rgba(17,17,40,0.42)"
+    USER_BG = "linear-gradient(135deg,#3b6cff 0%,#7c3aed 100%)"
+    USER_TEXT = "#fff"
+    BOT_BG = "rgba(255,255,255,0.90)"
+    BOT_BORDER = "rgba(0,0,0,0.07)"
+    BOT_TEXT = "#111128"
+    ACCENT = "#3b6cff"
+    ACCENT2 = "#7c3aed"
+    SIDEBAR_BG = "rgba(244,246,251,0.96)"
+    BTN_BG = "rgba(0,0,0,0.03)"
     BTN_HOVER_BG = "rgba(59,108,255,0.08)"
     BTN_HOVER_BD = "rgba(59,108,255,0.30)"
-    INPUT_BG     = "rgba(255,255,255,0.90)"
-    GLOW         = "rgba(59,108,255,0.10)"
+    INPUT_BG = "rgba(255,255,255,0.90)"
+    GLOW = "rgba(59,108,255,0.10)"
     TOGGLE_LABEL = "☀️ Light"
-    DIVIDER      = "rgba(0,0,0,0.06)"
-    TAG_BG       = "rgba(59,108,255,0.08)"
-    TAG_COLOR    = "#3b6cff"
+    DIVIDER = "rgba(0,0,0,0.06)"
+    TAG_BG = "rgba(59,108,255,0.08)"
+    TAG_COLOR = "#3b6cff"
 
 # app.py — Streamlit frontend for Titanic AI Chatbot
 import streamlit as st
@@ -89,66 +89,67 @@ dark = st.session_state.dark_mode
 
 # ── Color tokens ─────────────────────────────────────────────────────
 if dark:
-    PAGE_BG      = "#09090f"
-    GRID_COLOR   = "rgba(255,255,255,0.025)"
-    GLASS_BG     = "rgba(255,255,255,0.04)"
+    PAGE_BG = "#09090f"
+    GRID_COLOR = "rgba(255,255,255,0.025)"
+    GLASS_BG = "rgba(255,255,255,0.04)"
     GLASS_BORDER = "rgba(255,255,255,0.08)"
-    GLASS_BLUR   = "20px"
-    TEXT         = "#f0f0f8"
-    TEXT_DIM     = "rgba(240,240,248,0.38)"
-    USER_BG      = "linear-gradient(135deg,#3b6cff 0%,#7c3aed 100%)"
-    USER_TEXT    = "#fff"
-    BOT_BG       = "rgba(255,255,255,0.05)"
-    BOT_BORDER   = "rgba(255,255,255,0.09)"
-    BOT_TEXT     = "#e4e4f0"
-    ACCENT       = "#3b6cff"
-    ACCENT2      = "#7c3aed"
-    SIDEBAR_BG   = "rgba(9,9,15,0.97)"
-    BTN_BG       = "rgba(255,255,255,0.04)"
+    GLASS_BLUR = "20px"
+    TEXT = "#f0f0f8"
+    TEXT_DIM = "rgba(240,240,248,0.38)"
+    USER_BG = "linear-gradient(135deg,#3b6cff 0%,#7c3aed 100%)"
+    USER_TEXT = "#fff"
+    BOT_BG = "rgba(255,255,255,0.05)"
+    BOT_BORDER = "rgba(255,255,255,0.09)"
+    BOT_TEXT = "#e4e4f0"
+    ACCENT = "#3b6cff"
+    ACCENT2 = "#7c3aed"
+    SIDEBAR_BG = "rgba(9,9,15,0.97)"
+    BTN_BG = "rgba(255,255,255,0.04)"
     BTN_HOVER_BG = "rgba(59,108,255,0.12)"
     BTN_HOVER_BD = "rgba(59,108,255,0.35)"
-    INPUT_BG     = "rgba(14,14,24,0.97)"
+    INPUT_BG = "rgba(14,14,24,0.97)"
     INPUT_BORDER = "rgba(255,255,255,0.10)"
-    GLOW         = "rgba(59,108,255,0.18)"
+    GLOW = "rgba(59,108,255,0.18)"
     TOGGLE_LABEL = "🌙 Dark"
-    DIVIDER      = "rgba(255,255,255,0.07)"
-    TAG_BG       = "rgba(59,108,255,0.12)"
-    TAG_COLOR    = "#7aa2ff"
-    BAR_BG       = "rgba(10,10,18,0.96)"
-    BAR_BORDER   = "rgba(255,255,255,0.07)"
-    SEND_SHADOW  = "0 0 22px rgba(59,108,255,0.50)"
+    DIVIDER = "rgba(255,255,255,0.07)"
+    TAG_BG = "rgba(59,108,255,0.12)"
+    TAG_COLOR = "#7aa2ff"
+    BAR_BG = "rgba(10,10,18,0.96)"
+    BAR_BORDER = "rgba(255,255,255,0.07)"
+    SEND_SHADOW = "0 0 22px rgba(59,108,255,0.50)"
 else:
-    PAGE_BG      = "#f4f6fb"
-    GRID_COLOR   = "rgba(0,0,0,0.025)"
-    GLASS_BG     = "rgba(255,255,255,0.80)"
+    PAGE_BG = "#f4f6fb"
+    GRID_COLOR = "rgba(0,0,0,0.025)"
+    GLASS_BG = "rgba(255,255,255,0.80)"
     GLASS_BORDER = "rgba(0,0,0,0.07)"
-    GLASS_BLUR   = "20px"
-    TEXT         = "#111128"
-    TEXT_DIM     = "rgba(17,17,40,0.42)"
-    USER_BG      = "linear-gradient(135deg,#3b6cff 0%,#7c3aed 100%)"
-    USER_TEXT    = "#fff"
-    BOT_BG       = "rgba(255,255,255,0.90)"
-    BOT_BORDER   = "rgba(0,0,0,0.07)"
-    BOT_TEXT     = "#111128"
-    ACCENT       = "#3b6cff"
-    ACCENT2      = "#7c3aed"
-    SIDEBAR_BG   = "rgba(244,246,251,0.97)"
-    BTN_BG       = "rgba(0,0,0,0.03)"
+    GLASS_BLUR = "20px"
+    TEXT = "#111128"
+    TEXT_DIM = "rgba(17,17,40,0.42)"
+    USER_BG = "linear-gradient(135deg,#3b6cff 0%,#7c3aed 100%)"
+    USER_TEXT = "#fff"
+    BOT_BG = "rgba(255,255,255,0.90)"
+    BOT_BORDER = "rgba(0,0,0,0.07)"
+    BOT_TEXT = "#111128"
+    ACCENT = "#3b6cff"
+    ACCENT2 = "#7c3aed"
+    SIDEBAR_BG = "rgba(244,246,251,0.97)"
+    BTN_BG = "rgba(0,0,0,0.03)"
     BTN_HOVER_BG = "rgba(59,108,255,0.08)"
     BTN_HOVER_BD = "rgba(59,108,255,0.30)"
-    INPUT_BG     = "rgba(255,255,255,0.98)"
+    INPUT_BG = "rgba(255,255,255,0.98)"
     INPUT_BORDER = "rgba(0,0,0,0.10)"
-    GLOW         = "rgba(59,108,255,0.12)"
+    GLOW = "rgba(59,108,255,0.12)"
     TOGGLE_LABEL = "☀️ Light"
-    DIVIDER      = "rgba(0,0,0,0.06)"
-    TAG_BG       = "rgba(59,108,255,0.08)"
-    TAG_COLOR    = "#3b6cff"
-    BAR_BG       = "rgba(248,249,255,0.97)"
-    BAR_BORDER   = "rgba(0,0,0,0.07)"
-    SEND_SHADOW  = "0 0 18px rgba(59,108,255,0.35)"
+    DIVIDER = "rgba(0,0,0,0.06)"
+    TAG_BG = "rgba(59,108,255,0.08)"
+    TAG_COLOR = "#3b6cff"
+    BAR_BG = "rgba(248,249,255,0.97)"
+    BAR_BORDER = "rgba(0,0,0,0.07)"
+    SEND_SHADOW = "0 0 18px rgba(59,108,255,0.35)"
 
 # ── Global CSS ───────────────────────────────────────────────────────
-st.markdown(f"""
+st.markdown(
+    f"""
 <style>
 @import url('https://fonts.googleapis.com/css2?family=Sora:wght@300;400;500;600;700&family=JetBrains+Mono:wght@400;500&display=swap');
 
@@ -440,7 +441,9 @@ hr {{ border-color: {DIVIDER} !important; margin: 0.75rem 0 !important; }}
 ::-webkit-scrollbar-track {{ background: transparent; }}
 ::-webkit-scrollbar-thumb {{ background: {GLASS_BORDER}; border-radius: 4px; }}
 </style>
-""", unsafe_allow_html=True)
+""",
+    unsafe_allow_html=True,
+)
 
 # ── Sidebar ──────────────────────────────────────────────────────────
 with st.sidebar:
@@ -474,7 +477,9 @@ with st.sidebar:
     st.divider()
 
     # Quick prompts
-    st.markdown("<p class='sidebar-section-label'>Quick prompts</p>", unsafe_allow_html=True)
+    st.markdown(
+        "<p class='sidebar-section-label'>Quick prompts</p>", unsafe_allow_html=True
+    )
     examples = [
         "What percentage of passengers were male?",
         "Show me a histogram of passenger ages",
@@ -486,18 +491,22 @@ with st.sidebar:
     ]
     for ex in examples:
         if st.button(ex, key=f"ex_{ex}"):
-            st.session_state.history.append({
-                "role": "user", "text": ex, "time": datetime.now().strftime("%H:%M")
-            })
+            st.session_state.history.append(
+                {"role": "user", "text": ex, "time": datetime.now().strftime("%H:%M")}
+            )
             try:
                 resp = requests.post(BACKEND, json={"question": ex}, timeout=60)
                 data = resp.json()
             except Exception as e:
                 data = {"answer": f"⚠ Cannot reach the backend. ({e})", "plot": None}
-            st.session_state.history.append({
-                "role": "bot", "text": data["answer"],
-                "plot": data.get("plot"), "time": datetime.now().strftime("%H:%M"),
-            })
+            st.session_state.history.append(
+                {
+                    "role": "bot",
+                    "text": data["answer"],
+                    "plot": data.get("plot"),
+                    "time": datetime.now().strftime("%H:%M"),
+                }
+            )
             st.rerun()
 
     st.divider()
@@ -507,7 +516,9 @@ with st.sidebar:
 
     # Deploy section
     st.divider()
-    st.markdown("<p class='sidebar-section-label'>🚀 Deploy</p>", unsafe_allow_html=True)
+    st.markdown(
+        "<p class='sidebar-section-label'>🚀 Deploy</p>", unsafe_allow_html=True
+    )
     st.markdown(
         f"<div style='font-size:0.72rem;line-height:1.75;color:{TEXT_DIM} !important;"
         f"background:{BTN_BG};border:1px solid {GLASS_BORDER};border-radius:0.7rem;"
@@ -523,7 +534,8 @@ with st.sidebar:
 
 # ── Main chat area ───────────────────────────────────────────────────
 st.markdown("<div style='max-width:860px;margin:0 auto;'>", unsafe_allow_html=True)
-st.markdown(f"""
+st.markdown(
+    f"""
 <div class='glass'>
     <div class='chat-header'>
         <div class='chat-header-icon'>🚢</div>
@@ -532,38 +544,49 @@ st.markdown(f"""
             <span class='chat-header-badge'>LIVE · Dataset Ready</span>
         </div>
     </div>
-""", unsafe_allow_html=True)
+""",
+    unsafe_allow_html=True,
+)
 
 if not st.session_state.history:
-    st.markdown("""
+    st.markdown(
+        """
     <div class='empty-state'>
         <span class='empty-icon'>💬</span>
         <h3>Start a conversation</h3>
         <p>Ask anything about the Titanic dataset — survival rates, demographics, fares, and more.
         Try the quick prompts on the left.</p>
     </div>
-    """, unsafe_allow_html=True)
+    """,
+        unsafe_allow_html=True,
+    )
 else:
     for msg in st.session_state.history:
         if msg["role"] == "user":
-            st.markdown(f"""
+            st.markdown(
+                f"""
             <div class='msg-row user'>
                 <div class='msg-avatar user-av'>U</div>
                 <div>
-                    <div class='msg-bubble user-msg'>{msg['text']}</div>
-                    <div class='msg-meta'><span class='msg-time'>{msg['time']}</span></div>
+                    <div class='msg-bubble user-msg'>{msg["text"]}</div>
+                    <div class='msg-meta'><span class='msg-time'>{msg["time"]}</span></div>
                 </div>
-            </div>""", unsafe_allow_html=True)
+            </div>""",
+                unsafe_allow_html=True,
+            )
         else:
             bot_html = msg["text"].replace("\n", "<br>")
-            st.markdown(f"""
+            st.markdown(
+                f"""
             <div class='msg-row'>
                 <div class='msg-avatar bot-av'>🚢</div>
                 <div>
                     <div class='msg-bubble bot-msg'>{bot_html}</div>
-                    <div class='msg-meta'><span class='msg-time'>{msg['time']}</span></div>
+                    <div class='msg-meta'><span class='msg-time'>{msg["time"]}</span></div>
                 </div>
-            </div>""", unsafe_allow_html=True)
+            </div>""",
+                unsafe_allow_html=True,
+            )
             if msg.get("plot"):
                 try:
                     img_bytes = base64.b64decode(msg["plot"])
@@ -577,9 +600,9 @@ st.markdown("</div></div>", unsafe_allow_html=True)
 user_text = st.chat_input("Ask about the Titanic dataset…")
 
 if user_text:
-    st.session_state.history.append({
-        "role": "user", "text": user_text, "time": datetime.now().strftime("%H:%M")
-    })
+    st.session_state.history.append(
+        {"role": "user", "text": user_text, "time": datetime.now().strftime("%H:%M")}
+    )
     try:
         with st.spinner("Analyzing…"):
             resp = requests.post(BACKEND, json={"question": user_text}, timeout=60)
@@ -587,12 +610,17 @@ if user_text:
     except Exception as e:
         data = {"answer": f"⚠ Cannot reach the backend. ({e})", "plot": None}
 
-    st.session_state.history.append({
-        "role": "bot", "text": data["answer"],
-        "plot": data.get("plot"), "time": datetime.now().strftime("%H:%M"),
-    })
+    st.session_state.history.append(
+        {
+            "role": "bot",
+            "text": data["answer"],
+            "plot": data.get("plot"),
+            "time": datetime.now().strftime("%H:%M"),
+        }
+    )
     st.rerun()
-    st.markdown(f"""
+    st.markdown(
+        f"""
 <style>
 @import url('https://fonts.googleapis.com/css2?family=Sora:wght@300;400;500;600;700&family=JetBrains+Mono:wght@400;500&display=swap');
 
@@ -893,7 +921,9 @@ hr {{
 ::-webkit-scrollbar-track {{ background: transparent; }}
 ::-webkit-scrollbar-thumb {{ background: {GLASS_BORDER}; border-radius: 4px; }}
 </style>
-""", unsafe_allow_html=True)
+""",
+        unsafe_allow_html=True,
+    )
 
 with st.sidebar:
     st.markdown(
@@ -901,12 +931,12 @@ with st.sidebar:
         f"<div style='width:28px;height:28px;border-radius:8px;background:linear-gradient(135deg,{ACCENT},{ACCENT2});"
         f"display:flex;align-items:center;justify-content:center;font-size:0.85rem;flex-shrink:0;'>🚢</div>"
         f"<span style='font-size:0.9rem;font-weight:700;letter-spacing:-0.02em;'>Titanic Chatbot</span></div>",
-        unsafe_allow_html=True
+        unsafe_allow_html=True,
     )
     st.markdown(
         f"<p style='font-size:0.69rem;color:{TEXT_DIM} !important;margin:0 0 1rem 0;padding-left:2px;'>"
         f"LangChain · HuggingFace</p>",
-        unsafe_allow_html=True
+        unsafe_allow_html=True,
     )
 
     st.markdown(f"<p class='sidebar-section-label'>Theme</p>", unsafe_allow_html=True)
@@ -920,7 +950,9 @@ with st.sidebar:
             st.rerun()
 
     st.divider()
-    st.markdown(f"<p class='sidebar-section-label'>Quick prompts</p>", unsafe_allow_html=True)
+    st.markdown(
+        f"<p class='sidebar-section-label'>Quick prompts</p>", unsafe_allow_html=True
+    )
 
     examples = [
         "What percentage of passengers were male?",
@@ -933,18 +965,22 @@ with st.sidebar:
     ]
     for ex in examples:
         if st.button(ex, key=f"ex_{ex}"):
-            st.session_state.history.append({
-                "role": "user", "text": ex, "time": datetime.now().strftime("%H:%M")
-            })
+            st.session_state.history.append(
+                {"role": "user", "text": ex, "time": datetime.now().strftime("%H:%M")}
+            )
             try:
                 resp = requests.post(BACKEND, json={"question": ex}, timeout=60)
                 data = resp.json()
             except Exception as e:
                 data = {"answer": f"⚠ Cannot reach the backend. ({e})", "plot": None}
-            st.session_state.history.append({
-                "role": "bot", "text": data["answer"],
-                "plot": data.get("plot"), "time": datetime.now().strftime("%H:%M"),
-            })
+            st.session_state.history.append(
+                {
+                    "role": "bot",
+                    "text": data["answer"],
+                    "plot": data.get("plot"),
+                    "time": datetime.now().strftime("%H:%M"),
+                }
+            )
             st.rerun()
 
     st.divider()
@@ -953,7 +989,8 @@ with st.sidebar:
         st.rerun()
 
 st.markdown("<div style='max-width:780px;margin:0 auto;'>", unsafe_allow_html=True)
-st.markdown(f"""
+st.markdown(
+    f"""
 <div class='glass'>
     <div class='chat-header'>
         <div class='chat-header-icon'>🚢</div>
@@ -962,37 +999,48 @@ st.markdown(f"""
             <span class='chat-header-badge'>LIVE · Dataset Ready</span>
         </div>
     </div>
-""", unsafe_allow_html=True)
+""",
+    unsafe_allow_html=True,
+)
 
 if not st.session_state.history:
-    st.markdown(f"""
+    st.markdown(
+        f"""
     <div class='empty-state'>
         <span class='empty-icon'>💬</span>
         <h3>Start a conversation</h3>
         <p>Ask anything about the Titanic dataset — survival rates, demographics, fares, and more. Try the quick prompts on the left.</p>
     </div>
-    """, unsafe_allow_html=True)
+    """,
+        unsafe_allow_html=True,
+    )
 else:
     for msg in st.session_state.history:
         if msg["role"] == "user":
-            st.markdown(f"""
+            st.markdown(
+                f"""
             <div class='msg-row user'>
                 <div class='msg-avatar user-av'>U</div>
                 <div>
-                    <div class='msg-bubble user-msg'>{msg['text']}</div>
-                    <div class='msg-meta'><span class='msg-time'>{msg['time']}</span></div>
+                    <div class='msg-bubble user-msg'>{msg["text"]}</div>
+                    <div class='msg-meta'><span class='msg-time'>{msg["time"]}</span></div>
                 </div>
-            </div>""", unsafe_allow_html=True)
+            </div>""",
+                unsafe_allow_html=True,
+            )
         else:
             bot_html = msg["text"].replace("\n", "<br>")
-            st.markdown(f"""
+            st.markdown(
+                f"""
             <div class='msg-row'>
                 <div class='msg-avatar bot-av'>🚢</div>
                 <div>
                     <div class='msg-bubble bot-msg'>{bot_html}</div>
-                    <div class='msg-meta'><span class='msg-time'>{msg['time']}</span></div>
+                    <div class='msg-meta'><span class='msg-time'>{msg["time"]}</span></div>
                 </div>
-            </div>""", unsafe_allow_html=True)
+            </div>""",
+                unsafe_allow_html=True,
+            )
             if msg.get("plot"):
                 try:
                     img_bytes = base64.b64decode(msg["plot"])
@@ -1005,9 +1053,9 @@ st.markdown("</div></div>", unsafe_allow_html=True)
 user_text = st.chat_input("Ask about the Titanic dataset…")
 
 if user_text:
-    st.session_state.history.append({
-        "role": "user", "text": user_text, "time": datetime.now().strftime("%H:%M")
-    })
+    st.session_state.history.append(
+        {"role": "user", "text": user_text, "time": datetime.now().strftime("%H:%M")}
+    )
     try:
         with st.spinner("Analyzing…"):
             resp = requests.post(BACKEND, json={"question": user_text}, timeout=60)
@@ -1015,8 +1063,12 @@ if user_text:
     except Exception as e:
         data = {"answer": f"⚠ Cannot reach the backend. ({e})", "plot": None}
 
-    st.session_state.history.append({
-        "role": "bot", "text": data["answer"],
-        "plot": data.get("plot"), "time": datetime.now().strftime("%H:%M"),
-    })
+    st.session_state.history.append(
+        {
+            "role": "bot",
+            "text": data["answer"],
+            "plot": data.get("plot"),
+            "time": datetime.now().strftime("%H:%M"),
+        }
+    )
     st.rerun()
