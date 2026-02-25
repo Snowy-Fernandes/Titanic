@@ -591,7 +591,8 @@ if user_text:
         "role": "bot", "text": data["answer"],
         "plot": data.get("plot"), "time": datetime.now().strftime("%H:%M"),
     })
-    st.rerun()st.markdown(f"""
+    st.rerun()
+    st.markdown(f"""
 <style>
 @import url('https://fonts.googleapis.com/css2?family=Sora:wght@300;400;500;600;700&family=JetBrains+Mono:wght@400;500&display=swap');
 
