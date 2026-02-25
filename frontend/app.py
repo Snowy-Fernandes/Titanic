@@ -3,7 +3,7 @@ import requests
 import base64
 from datetime import datetime
 
-BACKEND = "https://titanic-backend-emeb.onrender.com"
+BACKEND = "https://titanic-backend-emeb.onrender.com/chat"
 
 st.set_page_config(page_title="Titanic AI Chatbot", layout="centered", page_icon="🚢")
 
@@ -511,7 +511,10 @@ if user_text:
     try:
         with st.spinner("Analyzing…"):
             resp = requests.post(BACKEND, json={"question": user_text}, timeout=60)
-            data = resp.json()
+            if resp.status_code != 200:
+                data = {"answer": f"Backend error: {resp.text}", "plot": None}
+            else:
+                data = resp.json()
     except Exception as e:
         data = {"answer": f"⚠ Cannot reach the backend. ({e})", "plot": None}
 
