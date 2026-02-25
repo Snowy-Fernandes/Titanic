@@ -3,7 +3,7 @@ import requests
 import base64
 from datetime import datetime
 
-BACKEND = "http://127.0.0.1:8000/chat"
+BACKEND = "https://titanic-backend-emeb.onrender.com"
 
 st.set_page_config(page_title="Titanic AI Chatbot", layout="centered", page_icon="🚢")
 
